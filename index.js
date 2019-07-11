@@ -1,6 +1,7 @@
 var animal = 'dog'
 
 function myAnimal() {
+  animal = cat
   return animal
 }
 
@@ -11,10 +12,7 @@ function yourAnimal() {
   return animal
 }
 
-
-
-
-
+/*global describe, it */
 
 function add2(n) {
   return n + two
